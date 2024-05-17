@@ -34,7 +34,7 @@ func main() {
 func login(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, gin.H{
 		"code": 1,
-		"msg":  "请求成功",
+		"msg":  "请求成功2",
 		"data": "xxxx",
 	})
 }
